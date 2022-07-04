@@ -3,18 +3,18 @@
     <head>
         <script src="script.js"></script>
         <link rel="stylesheet" href="style.css">
-        <title>Simple Interest Calculator</title>
+        <title>Web - App Simple Interest Calculator</title>
     </head>
     <body>
-        <h1>Simple Interest Calculator</h1>
-        
         <div class="maindiv">
-            Amount 
-                <input type="number"  id="principal"><br>
-            Rate 
+            <h1>Simple Interest Calculator</h1>
+
+            Amount  
+                <input type="number"  id="principal"><br><br>
+            Rate     
                 <input type="range" id="rate" max="20" min="1" value="10.25" step="0.25" onchange="updateRate()">
-                <span id="rate_val">10.25%</span><br>
-            No. of Years 
+                <span id="rate_val">10.25%</span><br><br>
+            No. of Years     
                 <select id="years">
                     <option value="1">1</option>  
                     <option value="2">2</option>  
@@ -26,18 +26,13 @@
                     <option value="8">8</option>  
                     <option value="9">9</option>  
                     <option value="10">10</option>  
-                </select><br>
-            Interest : 
-                <span id="result">
-                    
-                </span><br>
+                </select><br><br>
             
             <button onclick="compute()">Compute Interest</button>
-            <span id="result"></span>
+            <br>
+            <span id="result"></span><br><br>
+            &#169; Everyone can get rich <br> 
+            This Calculator belongs to Naman Verma.
         </div>
-        <br>
-        <footer>
-            &#169; This Calculator belongs to Naman Verma.
-        </footer>
     </body>
 </html>
