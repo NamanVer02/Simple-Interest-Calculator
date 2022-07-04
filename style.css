@@ -12,10 +12,32 @@ h1{
 .maindiv{
     background-color: white;
     color: black;
-    width: 300px;
-    padding: 20px;
+    width: 500px;
+    padding: 30px;
     border-radius: 25px;
-    align: center;
+    align-items: center;
+    
+}   
+
+#principal{
+    position: relative;
+    left: 50px;
+}
+
+#rate{
+    position: relative;
+    left: 68px;
+}
+
+#rate_val{
+    position: relative;
+    left: 68px;
+}
+
+
+#years{
+    position: relative;
+    left: 20px;
 }
 
 
